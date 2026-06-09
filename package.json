@@ -1,8 +1,9 @@
 {
-  "name": "11ty-config",
+  "name": "@pulsar-edit/11ty-shared-configuration",
   "version": "1.0.0",
-  "description": "",
+  "description": "Used to configure all Pulsar 11ty built static sites",
   "main": "./src/index.js",
+  "repository": "https://github.com/pulsar-edit/11ty-shared-configuration",
   "author": "confused-Techie",
   "license": "MIT",
   "dependencies": {
