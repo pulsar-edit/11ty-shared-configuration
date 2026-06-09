@@ -1,3 +1,4 @@
+> Officially adopted and moved to [`pulsar-edit/11ty-shared-configuration`](https://github.com/pulsar-edit/11ty-shared-configuration).
 # 11ty-config
 
 This repository contains the standard configuration of `11ty` for all Pulsar related websites that use it.
