@@ -15,6 +15,7 @@ const DEFAULT_OPTS = {
   defaultWatchers: true,
   addSitemap: true,
   addRobots: true,
+  addSecurityTxt: true,
   robotsConf: {
     sitemap: true,
     entries: [ { useragents: [ "*" ], allow_urls: [ "/" ] } ]
@@ -89,6 +90,10 @@ function config(eleventyConfig, givenOpts = {}) {
         robots: opts.robotsConf
       }
     );
+  }
+
+  if (opts.addSecurityTxt) {
+    eleventyConfig.addPassthroughCopy({ `${path.join(__dirname, "../templates/security.txt"}`: ".well-known/security.txt" });
   }
 
   return;

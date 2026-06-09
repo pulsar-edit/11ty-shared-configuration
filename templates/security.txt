@@ -1,0 +1,8 @@
+Contact: mailto:admin@pulsar-edit.dev
+Contact: https://discord.gg/7aEbB9dGRT
+Expires: 2028-01-01T09:00:00.000Z
+Preferred-Languages: en
+Canonical: https://pulsar-edit.dev/.well-known/security.txt
+Canonical: https://blog.pulsar-edit.dev/.well-known/security.txt
+Canonical: https://docs.pulsar-edit.dev/.well-known/security.txt
+Policy: https://github.com/pulsar-edit/pulsar/blob/master/SECURITY.md
