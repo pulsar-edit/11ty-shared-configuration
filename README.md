@@ -192,3 +192,7 @@ const robots = {
 ```
 
 If you provide your own, you will **override** the default, so must convey all data that should be included.
+
+#### `addSecurityTxt`
+
+Adds a `security.txt` to the `_dist/.well-known/security.txt` that is a static file copy of `./templates/security.txt`.
