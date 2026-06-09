@@ -3,9 +3,9 @@
 This repository contains the standard configuration of `11ty` for all Pulsar related websites that use it.
 
 Such as:
-* `pulsar-edit.dev` (WIP)
-* `docs.pulsar-edit.dev`
-* `blog.pulsar-edit.dev`
+* [`pulsar-edit.dev`](https://pulsar-edit.dev/) ([Source](https://github.com/pulsar-edit/pulsar-edit.github.io))
+* [`docs.pulsar-edit.dev`](https://docs.pulsar-edit.dev/) ([Source](https://github.com/pulsar-edit/documentation))
+* [`blog.pulsar-edit.dev`](https://blog.pulsar-edit.dev/) ([Source](https://github.com/pulsar-edit/blogumentation))
 
 ## Installation
 
@@ -16,10 +16,10 @@ It is recommended to use 11ty `v3.0.0` and above when using this package, as the
 
 ## Usage
 
-To use, simple add the following into your `eleventy.config.js` file:
+To use, simply add the following into your `eleventy.config.js` file:
 
 ```js
-const pulsarEleventyConfig = require("11ty-config");
+const pulsarEleventyConfig = require("@pulsar-edit/11ty-shared-configuration");
 
 module.exports = (eleventyConfig) => {
   pulsarEleventyConfig(eleventyConfig, opts);
@@ -100,7 +100,7 @@ Configures our highly customized Markdown-IT instance to be used to process Mark
 If you'd like to build on top of our existing Markdown-IT instance, use the following instead:
 
 ```js
-const pulsarEleventyConfig = require("11ty-config");
+const pulsarEleventyConfig = require("@pulsar-edit/11ty-shared-configuration");
 
 module.exports = (eleventyConfig) => {
   pulsarEleventyConfig(eleventyConfig, { mdLibrary: false });
